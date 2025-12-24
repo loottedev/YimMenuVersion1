@@ -11,7 +11,7 @@
 namespace big
 {
 	translation_service::translation_service() :
-	    m_url("blob:https://github.com/dbf3890a-2136-4767-a578-c4d9cc300b09"),
+	    m_url("https://raw.githubusercontent.com/YimMenu/Translations/master"),
 	    m_fallback_url("https://cdn.jsdelivr.net/gh/YimMenu/Translations@master")
 	{
 	}
@@ -329,4 +329,3 @@ namespace big
 		}
 	}
 }
-
