@@ -1,7 +1,6 @@
 #include "hooking.hpp"
 namespace big
 {
-	//Credit Devra
 	bool hooks::request_story_news_data(CNetworkSCNewsStoryRequest* pStory)
 	{
 		auto items = pStory->toJson();
